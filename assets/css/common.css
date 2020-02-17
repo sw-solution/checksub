@@ -1,0 +1,288 @@
+@font-face {font-family: "Larsseit-Bold";
+    src: url("../fonts/larsseit/f4c9951744c0ef14010218fc1b2f7938.eot"); /* IE9*/
+    src: url("../fonts/larsseit/f4c9951744c0ef14010218fc1b2f7938.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/larsseit/f4c9951744c0ef14010218fc1b2f7938.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/larsseit/f4c9951744c0ef14010218fc1b2f7938.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/larsseit/f4c9951744c0ef14010218fc1b2f7938.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/larsseit/f4c9951744c0ef14010218fc1b2f7938.svg#Larsseit-Bold") format("svg"); /* iOS 4.1- */
+}
+
+body{
+    font-family: "Larsseit-Bold";
+}
+
+.color-primary{
+    color: #522AB3 !important;
+}
+
+.color-pink{
+    color: #C71EE5 !important;
+}
+
+.btn-primary{
+    background-color: #522AB3;
+    border: solid 1px #522AB3;
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-family: "Larsseit-Bold";
+    font-size: 25px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #522AB3;
+    border: solid 1px #522AB3;
+}
+.btn-primary:active{
+    background-color: #fff !important;
+    color: #522AB3 !important;
+    border: solid 1px #522AB3 !important;
+}
+
+.btn-secondary{
+    background-color: #fff;
+    border: solid 1px #522AB3;
+    color: #522AB3;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-family: "Larsseit-Bold";
+    font-size: 25px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn-secondary:hover{
+    background-color: #522AB3;
+    color: #fff;
+    border: solid 1px #fff;
+}
+
+.btn-secondary:active{
+    background-color: #522AB3 !important;
+    color: #fff !important;
+    border: solid 1px #fff !important;
+}
+
+h1{
+    font-family: "Larsseit-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+h2{
+    font-family: "Larsseit-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+}
+.large-text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.menu-title{
+    font-family: "Larsseit-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+.content-title{
+    font-family: "Larsseit-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+.default-text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+#content{
+    margin-top: 200px;
+    padding-bottom: 200px;
+}
+#footer{
+    background-color: rgb(82, 42, 179, 0.04);
+    padding: 50px 15% 20px 15%;
+}
+
+img{
+    width: 100%;
+}
+
+#content video{
+    width: 70%;
+}
+.brand-logo{
+    height: 100px;
+    margin: 10px 50px;
+    width: auto;
+}
+button.navbar-toggler{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.star-box{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #57A931;
+    font-size: 26px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+    padding-top: 1px;
+}
+.fa-star {
+    color: #fff;
+}
+.subscription-input input{
+    border: solid 2px #522AB3 !important;
+    font-family: "Larsseit-Bold";
+    font-size: 18px;
+    font-weight: normal;
+    border-right: 0;
+    height: 53px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.subscription-input button{
+    background-color: #522AB3;
+    border: solid 2px #522AB3;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Larsseit-Bold";
+    font-size: 25px;
+    border-radius: 0 5px 5px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.subscription-input button:hover{
+    background-color: #fff;
+    color: #522AB3;
+    border: solid 2px #522AB3;
+}
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+#footer .copyright{
+    margin-top: 100px;
+}
+#footer .social-box{
+    font-size: 24px;
+}
+
+#footer .social-box i{
+    margin-right: 10px;
+}
+
+.mt-checksub{
+    margin-top: 200px;
+}
+.mt-checksub-half{
+    margin-top: 100px;
+}
+
+.pricing-table-section{
+    padding: 0 10% 0 10% !important;
+}
+.pricing-table{
+    border: solid 1px #000;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    min-height: 600px;
+    margin-bottom: 3rem;
+}
+.pricing-table.premium{
+    border-color: #522AB3;
+}
+.pricing-table.essential{
+    border-color: #C71EE5;
+}
+
+@media (max-width: 1200px) {
+    #footer{
+        padding: 50px 10% 20px 10%;
+    }
+    .content-title{
+        font-size: 30px;
+    }
+    .large-text{
+        font-size: 24px;
+    }
+
+    .pricing-table-section{
+        padding: 0 20% 0 20% !important;
+    }
+}
+
+@media (max-width:500px){
+    .mt-checksub{
+        margin-top: 100px;
+    }
+
+    .mt-checksub-half{
+        margin-top: 50px;
+    }
+
+    #footer .copyright{
+        margin-top: 30px;
+    }
+    #content{
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+    #footer{
+        padding: 50px 30px 20px 30px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+
+    #content video{
+        width: 100%;
+    }
+    .brand-logo{
+        height: 50px;
+        margin: 10px 5px;
+    }
+    .pricing-table-section{
+        padding: 0 1rem 0 1rem !important;
+    }
+
+    .default-text{
+        display: block;
+        text-align: left;
+    }
+}

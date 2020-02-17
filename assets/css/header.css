@@ -1,0 +1,22 @@
+#header{
+    background-color: #fff;
+}
+.navbar{
+    padding: 15px 5% 10px 5%;
+    background-color: #fff !important;
+}
+.navbar-brand{
+    color: #522AB3 !important;
+    font-size: 40px;
+}
+.nav-item{
+    margin: 0 15px;
+}
+.nav-link{
+    color: #000 !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+.nav-link:hover{
+    color: #000 !important;
+}
